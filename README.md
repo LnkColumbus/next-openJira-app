@@ -14,6 +14,12 @@ MongoDB URL Local:
 ## Configurar las variables de entorno
 Renombrar el archivo __.env.template__ a __.env__
 
+* Reconstruir los módulos de Node y levantar Next
+```
+npm install
+npm run dev
+```
+
 ## Llenar la base de datos con información de pruebas
 
 Llamar a:
